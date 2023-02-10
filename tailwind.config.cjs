@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'contact-pattern': "url('./images/woodbg.webp')",
+      }
+    },
   },
   plugins: [],
 }

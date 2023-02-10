@@ -8,8 +8,9 @@ export default function Stats() {
           </h2>
 
           <p class="mt-4 text-gray-500 sm:text-xl">
-            Providing close care and attention to any project we've faced, we
-            have helped a large portion of the community expand.
+            Providing close care and attention to any project that comes our
+            way, we have helped a large portion of the community build and
+            expand their homes.
           </p>
         </div>
 
@@ -17,31 +18,31 @@ export default function Stats() {
           <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
             <div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
               <dt class="order-last text-lg font-medium text-gray-500">
-                Total Sales
+                Customers Served
               </dt>
 
-              <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
-                $4.8m
+              <dd class="text-4xl font-extrabold text-amber-600 md:text-5xl">
+                37
               </dd>
             </div>
 
             <div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
               <dt class="order-last text-lg font-medium text-gray-500">
-                Official Addons
+                Available Services
               </dt>
 
-              <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
-                24
+              <dd class="text-4xl font-extrabold text-amber-600 md:text-5xl">
+                17
               </dd>
             </div>
 
             <div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
               <dt class="order-last text-lg font-medium text-gray-500">
-                Total Addons
+                Availability
               </dt>
 
-              <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
-                86
+              <dd class="text-4xl font-extrabold text-amber-600 md:text-5xl">
+                24/7
               </dd>
             </div>
           </dl>

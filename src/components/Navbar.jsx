@@ -1,3 +1,4 @@
+import pic from "../images/logo.png";
 export default function Navbar() {
   return (
     <nav
@@ -6,10 +7,11 @@ export default function Navbar() {
     >
       <a
         href="/"
-        class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100"
+        class="inline-flex h-10 w-10 items-center justify-center rounded-lg"
       >
         <span class="sr-only">Logo</span>
-        👋
+        <img src={pic} />
+        LRLC
       </a>
 
       <ul class="flex items-center gap-2 text-sm font-medium text-gray-500">
