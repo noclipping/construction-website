@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Logo from "../images/logoo.svg";
 export default function Nav({
   activeSection,
   setActiveSection,
@@ -20,12 +20,7 @@ export default function Nav({
     <nav className="bg-black border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img
-            src={"../src/assets/logoo.svg"}
-            className="w-12"
-            alt="Logo"
-            loading="lazy"
-          />
+          <img src={Logo} className="w-12" alt="Logo" loading="lazy" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             Pennwoods Co.
           </span>
