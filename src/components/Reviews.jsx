@@ -1,4 +1,4 @@
-import Jen from "../images/Jen.jpg";
+import Jen from "../images/jen.jpg";
 import Sandra from "../images/SandraA.png";
 import Bryan from "../images/BryanS.png";
 export default function Reviews() {
