@@ -1,4 +1,6 @@
 import Jen from "../images/Jen.jpg";
+import Sandra from "../images/SandraA.png";
+import Bryan from "../images/BryanS.png";
 export default function Reviews() {
   return (
     <section class="bg-white">
@@ -7,13 +9,6 @@ export default function Reviews() {
           <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">
             Read authentic reviews from our customers
           </h2>
-
-          <p class="text-gring-offset-warm-gray-500 mx-auto mt-4 max-w-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            praesentium natus sapiente commodi. Aliquid sunt tempore iste
-            repellendus explicabo dignissimos placeat, autem harum dolore
-            reprehenderit quis! Quo totam dignissimos earum.
-          </p>
         </div>
 
         <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16 lg:grid-cols-3">
@@ -25,11 +20,16 @@ export default function Reviews() {
             />
 
             <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
-              <p class="text-lg font-bold text-gray-700">Jennifer Schock</p>
+              <p class="text-lg font-bold text-gray-700">Jennifer S</p>
               <p class="mt-1 text-xs font-medium text-gray-500">Nurse</p>
               <p class="mt-4 text-sm text-gray-500">
-                I love LRLC, they have fixed my home up just great and they're
-                the reason my home is so nice!
+                I had an incredible experience with Penn Woods Construction Co.
+                They fixed up my house perfectly, transforming it into a space
+                that I truly love coming home to every day. The team was
+                professional, meticulous, and attentive to every detail. Their
+                craftsmanship is exceptional, and they completed the work on
+                time and within budget. I couldn't be more satisfied with their
+                service and the beautiful results. Highly recommend!
               </p>
 
               <div class="mt-8 flex justify-center gap-0.5 text-amber-500">
@@ -80,16 +80,23 @@ export default function Reviews() {
           <div>
             <img
               alt="Woman"
-              src={Jen}
+              src={Sandra}
               class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
             />
 
             <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
-              <p class="text-lg font-bold text-gray-700">Jennifer Schock</p>
-              <p class="mt-1 text-xs font-medium text-gray-500">Nurse</p>
+              <p class="text-lg font-bold text-gray-700">Sandra A</p>
+              <p class="mt-1 text-xs font-medium text-gray-500">
+                Real Estate Investor
+              </p>
               <p class="mt-4 text-sm text-gray-500">
-                I love LRLC, they have fixed my home up just great and they're
-                the reason my home is so nice!
+                Penn Woods Construction Co. did an outstanding job on our
+                kitchen remodel! From the initial consultation to the final
+                touches, the team was professional, attentive, and skilled. They
+                transformed our outdated kitchen into a modern, functional space
+                that we absolutely love. The craftsmanship is top-notch, and
+                they completed the project on time and within budget. We
+                couldn't be happier with the results!
               </p>
 
               <div class="mt-8 flex justify-center gap-0.5 text-amber-500">
@@ -140,21 +147,26 @@ export default function Reviews() {
           <div>
             <img
               alt="Woman"
-              src="https://images.unsplash.com/photo-1599566219227-2efe0c9b7f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              src={Bryan}
               class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
             />
 
             <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
-              <p class="text-lg font-bold text-gray-700">Sophie Lennon</p>
+              <p class="text-lg font-bold text-gray-700">Bryan S</p>
               <p class="mt-1 text-xs font-medium text-gray-500">
                 Digital Marketing at Studio
               </p>
               <p class="mt-4 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt voluptatem alias ut provident sapiente repellendus.
+                We recently hired Penn Woods Construction Co. for a complete
+                bathroom remodel, and the results are amazing! The team was
+                efficient, respectful, and paid great attention to detail. They
+                listened to our ideas and provided valuable suggestions,
+                resulting in a beautiful and practical bathroom that exceeded
+                our expectations. The whole process was smooth, and the quality
+                of work is excellent. Highly recommend!
               </p>
 
-              <div class="mt-8 flex justify-center gap-0.5 text-green-500">
+              <div class="mt-8 flex justify-center gap-0.5 text-amber-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"

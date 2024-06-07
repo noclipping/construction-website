@@ -17,13 +17,13 @@ export default function Pictures() {
           </p>
         </header>
 
-        <ul class="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
+        <ul class="grid  grid-cols-1 gap-4 mt-8 md:grid-cols-3 lg:grid-cols-4">
           <li>
             <a href="#" class="relative block group">
               <img
                 src={Stairs}
                 alt=""
-                class="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                class="object-cover  transition duration-500 aspect-square group-hover:opacity-90"
               />
 
               <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
@@ -39,7 +39,7 @@ export default function Pictures() {
               <img
                 src={MaroonRoom}
                 alt=""
-                class="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                class="object-cover  transition duration-500 aspect-square group-hover:opacity-90"
               />
 
               <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
@@ -55,7 +55,7 @@ export default function Pictures() {
               <img
                 src={DeckImage}
                 alt=""
-                class="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                class="object-cover  transition duration-500 aspect-square group-hover:opacity-90"
               />
 
               <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
